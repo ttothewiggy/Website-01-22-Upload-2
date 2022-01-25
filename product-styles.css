@@ -65,6 +65,7 @@ Fonts
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-gold: #c59d5f;
+  --clr-gold-2: #bd8c42;
   --clr-black: #222;
   --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: 'Open Sans', sans-serif;
@@ -349,7 +350,7 @@ p {
     margin-bottom: 0.5rem;
   }
   .price {
-    color: var(--clr-gold);
+    color: var(--clr-gold-2);
   }
   .item-text {
     margin-bottom: 0;
