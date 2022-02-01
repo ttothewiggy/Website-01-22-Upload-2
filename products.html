@@ -35,6 +35,10 @@
             <li>
                 <a href="contact.html">contact</a>
             </li>
+            <li>
+              <a href="cart.html">
+                    <ion-icon name="basket"></ion-icon> cart<span> 0</span></a>
+          </li>
         </ul>
         <!-- soical media -->
         <ul class="social-icons">
@@ -65,6 +69,9 @@
             </li>
           </ul>
     </div>
+
+
+    
     <!-- Products Menu -->
     <section class="menu">
         <!--  title -->
@@ -79,9 +86,43 @@
             <button class="filter-btn" type='button' data-id="snowboards">snowboarding</button>
             <button class="filter-btn" type='button' data-id="bindings">bindings</button>
         </div>
+
+        <!-- CART -->
+
+    <div class="cart-wrapper">
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- single item -->
+        <article class="cart-item">
+            <img src="candide-2.0 copy.jpg" class="cart-photo" alt="menu-item">
+            <div class="cart-item-info">
+                <header>    
+                    <h4>Candide 2.0</h4>
+                    <h4 class="cart-price">$599</h4>
+                </header>
+                <header class="cart-quantity">
+                <h4 class="cart-item-text">Quantity</h4>
+                <div class="units">
+                  <div class="btn minus">-</div>
+                  <div class="number">1</div>
+                  <div class="btn plus">+</div>           
+              </div>
+                <!-- <h4 class="cart-quantity">1</h4> -->
+                </header>
+                <button class="remove-from-cart">Remove</button>
+            </div>
+        </article>
+      </div>
+    
+      <div id="main">
+        <button class="openbtn" onclick="openNav()"><ion-icon name="basket"></ion-icon> Cart</button>
+      </div>
+    </div>
+
+
         <div class="section-center">
         <!-- single item -->
-        <article class="menu-item">
+        <!-- <article class="menu-item">
             <img src="candide-2.0 copy.jpg" class="photo" alt="menu-item">
             <div class="item-info">
                 <header>    
@@ -89,15 +130,20 @@
                     <h4 class="price">$15</h4>
                 </header>
                 <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod velit voluptates quo magni cumque labore autem soluta sunt tempora? Saepe.</p>
+                <button class="add-to-cart">Add to Cart</button>
             </div>
-        </article>
+        </article> -->
         </div>
         <!-- end of single item -->
         </div>
 
     </section>
     
+    
+    
     <!-- javascript -->
     <script src='app.js'></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
 </body>
 </html>
