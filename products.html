@@ -93,25 +93,20 @@
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <!-- single item -->
-        <article class="cart-item">
-            <img src="candide-2.0 copy.jpg" class="cart-photo" alt="menu-item">
-            <div class="cart-item-info">
-                <header>    
-                    <h4>Candide 2.0</h4>
-                    <h4 class="cart-price">$599</h4>
-                </header>
-                <header class="cart-quantity">
-                <h4 class="cart-item-text">Quantity</h4>
-                <div class="units">
-                  <div class="btn minus">-</div>
-                  <div class="number">1</div>
-                  <div class="btn plus">+</div>           
-              </div>
-                <!-- <h4 class="cart-quantity">1</h4> -->
-                </header>
-                <button class="remove-from-cart">Remove</button>
+        <article class="cart-content">  
+            <div class="cart-items">
+              <!-- render cart items in this div -->
             </div>
+            <div class="cart-footer">
+              <div class="subtotal">
+                  Subtotal (0 items): $0
+              </div>
+              <button class="checkout">
+                  Proceed to checkout
+              </button>
+            
         </article>
+        
       </div>
     
       <div id="main">
@@ -119,7 +114,7 @@
       </div>
     </div>
 
-
+<!-- render items here -->
         <div class="section-center">
         <!-- single item -->
         <!-- <article class="menu-item">
